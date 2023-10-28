@@ -1,0 +1,6 @@
+[wsl2]
+kernel=P:\\ath\\to\\kernel\\image
+
+#force v2 cgroups (k8s/longhorn)
+kernelCommandLine = cgroup_no_v1=all
+
